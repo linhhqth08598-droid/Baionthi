@@ -10,7 +10,7 @@ int NhapSo(int so){
 void Bai1(){
     char ten[50], diaChi[100], kyHoc[20], chuyenNganh[50];
     int tuoi;
-    printf("\n            Chuc nang 1.            \n");
+    printf("\n          ==Chuc nang 1.==          \n");
     
     // Xoa bo nho dem de tranh bi troi lenh 'gets' do phim Enter tu Menu
     fflush(stdin); 
@@ -28,13 +28,13 @@ void Bai1(){
     printf("Xin moi nhap chuyen nganh: ");
     gets(chuyenNganh);
     
-    printf("Ten: %s, Tuoi: %d, Dia chi: %s, Ky hoc: %s, Chuyen nganh: %s.\n", ten, tuoi, diaChi, kyHoc, chuyenNganh);
+    printf("\nTen: %s, Tuoi: %d, Dia chi: %s, Ky hoc: %s, Chuyen nganh: %s.\n", ten, tuoi, diaChi, kyHoc, chuyenNganh\n);
 }
 
 void Bai2() {
     int n, i, S = 0;
     
-    printf("\n            Chuc nang 2.            \n");
+    printf("\n          ==Chuc nang 2.==          \n");
     printf("Nhap so nguyen n: ");
     scanf("%d", &n); 
 
@@ -58,7 +58,7 @@ int timMin(int a[], int n) {
 
 void Bai3() {
     int TSL;
-    printf("\n            Chuc nang 3.            \n");
+    printf("\n          ==Chuc nang 3.==          \n");
     printf("\n+---Thong tin Sinh Vien cac lop--+\n");
     printf(" Xin moi nhap tong so lop: ");
     scanf("%d", &TSL);
