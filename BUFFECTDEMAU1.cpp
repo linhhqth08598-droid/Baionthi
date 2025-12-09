@@ -104,11 +104,11 @@ int main(){
     int choice = -1;
     while(choice != 0){
         printf("\n+--------------Menu--------------+\n");
-        printf("  1.Nhap thong tin ca nhan\n");
+        printf("\n  1.Nhap thong tin ca nhan\n");
         printf("  2.Tinh Tong\n");
         printf("  3.Thong tin sinh vien cac lop\n");
         printf("  0.Thoat\n");
-        printf("+--------------------------------+\n");
+        printf("\n+--------------------------------+\n");
         printf("\nMoi chon: ");
         scanf("%d", &choice);
         switch(choice){
